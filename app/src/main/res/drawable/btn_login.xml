@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#084499"
+                android:endColor="#084499"
+                android:angle="90" />
+            <stroke
+                android:width="2dp"
+                android:color="#084499" />
+            <!--테두리 색-->
+            <corners
+                android:radius="30dp" />
+            <!--padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp"/-->
+        </shape>
+    </item>
+
+</selector>

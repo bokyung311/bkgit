@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="35dp"> <!-- 왼쪽으로 이동 -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="50dp"
+            android:textColor="#084499"
+            android:textStyle="bold"
+            android:textSize="60sp"
+            android:text="LOGIN" />
+
+        <View
+            android:layout_width="330dp"
+            android:layout_height="1dp"
+            android:background="#9E9E9E"
+            android:layout_marginTop="-50dp"/>
+        <!--width 길이 marginTop 높이-->
+    </LinearLayout>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/idtext"
+        android:drawableStart="@drawable/schoollogin"
+        android:drawablePadding="5dp"
+        android:paddingLeft="20dp"
+        android:hint="@string/id"
+        android:elevation="9dp"
+        android:singleLine="true"
+        android:maxLines="1"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/idtext"
+        android:drawableStart="@drawable/locklogin"
+        android:drawablePadding="10dp"
+        android:paddingLeft="15dp"
+        android:hint="@string/password"
+        android:elevation="9dp"
+        android:maxLines="1"
+        android:singleLine="true"
+
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아이디 저장"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="35dp"
+        />
+
+    <Button
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:text="로그인"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_login"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:text="아이디 찾기"
+            android:layout_weight="0.2"
+            />
+        <View
+            android:layout_width="1.5dp"
+            android:layout_height="15dp"
+            android:background="#9E9E9E" /> <!-- 분리선 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:text="비빌번호 찾기"
+            android:layout_weight="0.2"/>
+        <View
+            android:layout_width="1.5dp"
+            android:layout_height="15dp"
+            android:background="#9E9E9E" /> <!-- 분리선 -->
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="회원가입"
+        android:layout_weight="0.2"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
